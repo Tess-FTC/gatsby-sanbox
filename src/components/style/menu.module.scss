@@ -1,0 +1,42 @@
+.nav-menu {
+  display: flex;
+  list-style: none;
+}
+
+.nav-menu__item {
+  text-decoration: none;
+  color: #452475;
+  font-weight: 600;
+  margin: 1rem;
+  text-decoration: none;
+
+  &:hover {
+    color: #8369aa;
+  }
+
+}
+.nav-menu__item-active {
+  color: #8369aa;
+}
+.collapsible-container {
+  position: absolute;
+
+  .collapsible-menu {
+    position: relative;
+    left: -999px;
+  }
+  ul {
+    list-style: none;
+    height: 0;
+    transform: scaleY(0);
+  }
+
+  label {
+    cursor: pointer;
+  }
+
+  .collapsible-menu:checked ~ ul {
+      height: 100%;
+      transform: scaleY(1);
+  }
+}

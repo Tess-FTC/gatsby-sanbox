@@ -1,0 +1,19 @@
+html, body {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+}
+.container {
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+.wrapper {
+  padding: 2rem;
+}

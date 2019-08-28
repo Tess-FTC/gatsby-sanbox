@@ -1,0 +1,13 @@
+.footer {
+  background-color: Turquoise;
+  color: white;
+
+  &__content {
+    padding: 1.45rem 1.0875rem;
+  }
+
+  &__link {
+    color: #000;
+    text-decoration: none;
+  }
+}
